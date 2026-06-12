@@ -6,15 +6,20 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "json-server": "json-server --watch server/db/db.json --port 4000"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.8.0",
     "@prisma/client": "^7.8.0",
+    "@tanstack/react-query": "^5.101.0",
+    "@tanstack/react-query-devtools": "^5.101.0",
+    "axios": "^1.17.0",
     "better-auth": "^1.6.15",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "dotenv": "^17.4.2",
+    "json-server": "^1.0.0-beta.15",
     "lucide-react": "^1.17.0",
     "next": "16.2.7",
     "postcss": "^8.5.15",
