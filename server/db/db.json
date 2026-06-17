@@ -1,63 +1,206 @@
 {
-    "posts": [
-        {
-            "userId": 1,
-            "id": 1,
-            "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
-            "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
-        },
-        {
-            "userId": 1,
-            "id": 2,
-            "title": "qui est esse",
-            "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
-        },
-        {
-            "userId": 1,
-            "id": 3,
-            "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
-            "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
-        }
-    ],
-    "todos": [
-        {
-            "id": 1,
-            "title": "delectus aut autem",
-            "completed": false
-        },
-        {
-            "id": 2,
-            "title": "quis ut nam facilis et officia qui",
-            "completed": false
-        },
-        {
-            "id": 3,
-            "title": "fugiat veniam minus",
-            "completed": false
-        }
-    ],
-
-
- "fruits" : [
-  { "id": 1, "name": "Apple", "color": "Red", "price": 120, "stock": true },
-  { "id": 2, "name": "Banana", "color": "Yellow", "price": 40, "stock": true },
-  { "id": 3, "name": "Mango", "color": "Orange", "price": 150, "stock": true },
-  { "id": 4, "name": "Orange", "color": "Orange", "price": 80, "stock": true },
-  { "id": 5, "name": "Grapes", "color": "Purple", "price": 90, "stock": false },
-  { "id": 6, "name": "Pineapple", "color": "Brown", "price": 110, "stock": true },
-  { "id": 7, "name": "Papaya", "color": "Yellow", "price": 70, "stock": true },
-  { "id": 8, "name": "Watermelon", "color": "Green", "price": 200, "stock": false },
-  { "id": 9, "name": "Guava", "color": "Green", "price": 60, "stock": true },
-  { "id": 10, "name": "Kiwi", "color": "Brown", "price": 180, "stock": true },
-  { "id": 11, "name": "Strawberry", "color": "Red", "price": 250, "stock": true },
-  { "id": 12, "name": "Blueberry", "color": "Blue", "price": 300, "stock": false },
-  { "id": 13, "name": "Cherry", "color": "Red", "price": 280, "stock": true },
-  { "id": 14, "name": "Peach", "color": "Pink", "price": 160, "stock": true },
-  { "id": 15, "name": "Pear", "color": "Green", "price": 100, "stock": true },
-  { "id": 16, "name": "Litchi", "color": "Red", "price": 220, "stock": false },
-  { "id": 17, "name": "Dragon Fruit", "color": "Pink", "price": 350, "stock": true },
-  { "id": 18, "name": "Pomegranate", "color": "Red", "price": 140, "stock": true },
-  { "id": 19, "name": "Coconut", "color": "Brown", "price": 50, "stock": true },
-  { "id": 20, "name": "Avocado", "color": "Green", "price": 260, "stock": false }
-]
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    },
+    {
+      "userId": 1,
+      "id": 2,
+      "title": "qui est esse",
+      "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+    },
+    {
+      "userId": 1,
+      "id": 3,
+      "title": "ea molestias quasi exercitationem repellat qui ipsa sit aut",
+      "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+    }
+  ],
+  "todos": [
+    {
+      "id": 1,
+      "title": "delectus aut autem",
+      "completed": false
+    },
+    {
+      "id": 3,
+      "title": "fugiat veniam minus",
+      "completed": false
+    },
+    {
+      "title": "huuu",
+      "completed": false,
+      "id": 5
+    },
+    {
+      "title": "",
+      "completed": false,
+      "id": 7
+    },
+    {
+      "title": "hiii",
+      "completed": false,
+      "id": 8
+    },
+    {
+      "title": "hiiii testing",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "title": "hlw",
+      "completed": false,
+      "id": 10
+    },
+    {
+      "title": "hiiii",
+      "completed": false,
+      "id": 11
+    }
+  ],
+  "fruits": [
+    {
+      "id": 1,
+      "name": "Apple",
+      "color": "Red",
+      "price": 120,
+      "stock": true
+    },
+    {
+      "id": 2,
+      "name": "Banana",
+      "color": "Yellow",
+      "price": 40,
+      "stock": true
+    },
+    {
+      "id": 3,
+      "name": "Mango",
+      "color": "Orange",
+      "price": 150,
+      "stock": true
+    },
+    {
+      "id": 4,
+      "name": "Orange",
+      "color": "Orange",
+      "price": 80,
+      "stock": true
+    },
+    {
+      "id": 5,
+      "name": "Grapes",
+      "color": "Purple",
+      "price": 90,
+      "stock": false
+    },
+    {
+      "id": 6,
+      "name": "Pineapple",
+      "color": "Brown",
+      "price": 110,
+      "stock": true
+    },
+    {
+      "id": 7,
+      "name": "Papaya",
+      "color": "Yellow",
+      "price": 70,
+      "stock": true
+    },
+    {
+      "id": 8,
+      "name": "Watermelon",
+      "color": "Green",
+      "price": 200,
+      "stock": false
+    },
+    {
+      "id": 9,
+      "name": "Guava",
+      "color": "Green",
+      "price": 60,
+      "stock": true
+    },
+    {
+      "id": 10,
+      "name": "Kiwi",
+      "color": "Brown",
+      "price": 180,
+      "stock": true
+    },
+    {
+      "id": 11,
+      "name": "Strawberry",
+      "color": "Red",
+      "price": 250,
+      "stock": true
+    },
+    {
+      "id": 12,
+      "name": "Blueberry",
+      "color": "Blue",
+      "price": 300,
+      "stock": false
+    },
+    {
+      "id": 13,
+      "name": "Cherry",
+      "color": "Red",
+      "price": 280,
+      "stock": true
+    },
+    {
+      "id": 14,
+      "name": "Peach",
+      "color": "Pink",
+      "price": 160,
+      "stock": true
+    },
+    {
+      "id": 15,
+      "name": "Pear",
+      "color": "Green",
+      "price": 100,
+      "stock": true
+    },
+    {
+      "id": 16,
+      "name": "Litchi",
+      "color": "Red",
+      "price": 220,
+      "stock": false
+    },
+    {
+      "id": 17,
+      "name": "Dragon Fruit",
+      "color": "Pink",
+      "price": 350,
+      "stock": true
+    },
+    {
+      "id": 18,
+      "name": "Pomegranate",
+      "color": "Red",
+      "price": 140,
+      "stock": true
+    },
+    {
+      "id": 19,
+      "name": "Coconut",
+      "color": "Brown",
+      "price": 50,
+      "stock": true
+    },
+    {
+      "id": 20,
+      "name": "Avocado",
+      "color": "Green",
+      "price": 260,
+      "stock": false
+    }
+  ]
 }
